@@ -8,15 +8,12 @@ export default function TopSideNav() {
       <nav className="navbar navbar-expand-lg main-navbar main-navbar">
         <form className="form-inline mr-auto">
           <ul className="navbar-nav mr-3">
-            
             <li>
               <a
                 href="#"
                 data-toggle="search"
                 className="nav-link nav-link-lg d-sm-none"
-              >
-                
-              </a>
+              ></a>
             </li>
           </ul>
 
@@ -154,18 +151,7 @@ export default function TopSideNav() {
               <Link to={"/EmployeeProfile"} className="dropdown-item has-icon">
                 <i className="far fa-user" /> Profile
               </Link>
-              <a
-                href="features-activities.html"
-                className="dropdown-item has-icon"
-              >
-                <i className="fas fa-bolt" /> Activities
-              </a>
-              <a
-                href="features-settings.html"
-                className="dropdown-item has-icon"
-              >
-                <i className="fas fa-cog" /> Settings
-              </a>
+
               <div className="dropdown-divider" />
               <a href="#" className="dropdown-item has-icon text-danger">
                 <i className="fas fa-sign-out-alt" /> Logout
