@@ -1,6 +1,6 @@
 .navbar {
-  background-image: linear-gradient(to right, #bdc3c7);
-  margin-left: 250px  ;
+  background-image: linear-gradient(to right, #bdc3c7,#2c3e50);
+
 }
 .navbar-bg {
   background-image: linear-gradient(to right, #bdc3c7, #2c3e50);
@@ -12,6 +12,13 @@
 body.sidebar-mini .navbar {
   left: 6px;
 }
+.navbar{
+  left:0 ;
+  right: 0;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
 
 
 

@@ -1,7 +1,6 @@
 body {
-  background-color: slategray;
   font-family: "Rubik", sans-serif;
-  transition: linear;
+ 
 }
 .header {
   font-weight: 700;
@@ -128,4 +127,14 @@ body {
 
 .toggle--active {
   transform: translateX(250px); 
+}
+.navbar .active .nav-link {
+  color: black;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+.navbar.nav-link {
+  color: black;
+  font-weight: 700;
+  padding-bottom: 10px;
 }
