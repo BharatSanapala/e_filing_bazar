@@ -23,7 +23,6 @@ export default function Invoice() {
               <div className="row">
                 <div className="col-lg-12">
                   <div className="invoice-title">
-                    <h2>Invoice</h2>
                     <div className="invoice-number">Order #12345</div>
                   </div>
                   <hr />

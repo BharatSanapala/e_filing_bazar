@@ -3,7 +3,6 @@ import SideNavBar from "./SideNavBar";
 import { Link } from "react-router-dom";
 import "./Customers.css";
 
-
 export default function () {
   return (
     <>
@@ -22,8 +21,6 @@ export default function () {
             </div>
           </div>
           <div className="section-body">
-            <h2 className="section-title">Table</h2>
-            <p className="section-lead">Client data </p>
             <div className="row">
               <div className="col-12 col-md-12 col-lg-12  ">
                 <div className="card">
@@ -31,7 +28,10 @@ export default function () {
                     <div className="table-responsive">
                       <table className="table table-striped table-lr">
                         <tbody>
-                          <tr style={{ backgroundColor : '#79848f' }} className="table--header">
+                          <tr
+                            style={{ backgroundColor: "#79848f" }}
+                            className="table--header"
+                          >
                             <th>Sl.No</th>
                             <th>Name</th>
                             <th>Created At</th>
@@ -43,7 +43,9 @@ export default function () {
                             <td>Client 1</td>
                             <td>2023-07-09</td>
                             <td>
-                              <div className="badge badge-success badge-color">Active</div>
+                              <div className="badge badge-success badge-color">
+                                Active
+                              </div>
                             </td>
                             <td>
                               <Link to={"/Clientprofile"}>
@@ -58,7 +60,9 @@ export default function () {
                             <td>Client 2</td>
                             <td>2023-07-10</td>
                             <td>
-                              <div className="badge  badge-success badge-color">Active</div>
+                              <div className="badge  badge-success badge-color">
+                                Active
+                              </div>
                             </td>
                             <td>
                               <Link to={"/Clientprofile"}>
@@ -90,7 +94,9 @@ export default function () {
                             <td>Client 4</td>
                             <td>2023-07-13</td>
                             <td>
-                              <div className="badge badge-success badge-color">Active</div>
+                              <div className="badge badge-success badge-color">
+                                Active
+                              </div>
                             </td>
                             <td>
                               <Link to={"/Clientprofile"}>
@@ -105,7 +111,9 @@ export default function () {
                             <td>Client 5</td>
                             <td>2023-07-15</td>
                             <td>
-                              <div className="badge badge-success badge-color">Active</div>
+                              <div className="badge badge-success badge-color">
+                                Active
+                              </div>
                             </td>
                             <td>
                               <Link to={"/Clientprofile"}>

@@ -20,7 +20,6 @@ export default function Gallery() {
             </div>
           </div>
           <div className="section-body ">
-            <h2 className="section-title">Gallery</h2>
             <p className="section-lead" />
             <div className="row">
               <div className="col-12 col-sm-6 col-lg-12">

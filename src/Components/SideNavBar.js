@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import TopSideNav from "./TopSideNav";
 import "./SidenavBar.css";
 import { useEffect, useState } from "react";
 import "./TopSideNav.css";
@@ -20,21 +19,14 @@ const SideNavBar = () => {
   }
   function toggleHandler() {
     toggleContent === false ? setToggleContent(true) : setToggleContent(false);
-     
   }
 
   return (
     <>
-     
       <nav className="navbar navbar-expand-lg main-navbar main-navbar">
-      <div
-            className="btn btn-primary"
-            onClick={SideNavBar}
-            
-            
-          >
-            <i className="fa fa-bars "></i>
-          </div>
+        <div className="btn btn-primary" onClick={SideNavBar}>
+          <i className="fa fa-bars "></i>
+        </div>
         <div
           className={`sidebar ${isOpen == true ? "active" : ""} 
           `}
@@ -55,7 +47,6 @@ const SideNavBar = () => {
                 <Link className="nav-link " to={"/Customers"}>
                   Customers
                 </Link>
-
                 <li>
                   <Link className="nav-link" to={"/Chats"}>
                     Chats
@@ -233,8 +224,6 @@ const SideNavBar = () => {
           </li>
         </ul>
       </nav>
-         
-      
     </>
   );
 };
