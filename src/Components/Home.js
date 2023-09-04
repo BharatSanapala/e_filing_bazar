@@ -1,5 +1,6 @@
 import SideNavBar from "./SideNavBar";
 import Footer from "./Footer";
+import './Home.css'
 
 export default function Home(props) {
 console.log(props)
